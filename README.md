@@ -38,3 +38,40 @@ Install required packages using pip:
 
 ```bash
 pip install pyperclip
+```
+
+## Usage 
+
+**Interactive Mode**
+
+  Run the script without arguments:
+
+```bash
+python main.py
+```
+You will be prompted to input the password length, minimum uppercase letters, digits, and special characters.
+
+**Command-Line Arguments**
+
+Generate a password with custom parameters:
+```bash
+python main.py --length 16 --min-uppercase 2 --min-digits 3 --min-special 2
+```
+Batch processing using a JSON configuration file:
+
+```bash
+python main.py --batch config.json
+```
+
+**Export Passwords**
+
+- **To JSON**
+```bash
+python main.py --multiple 5 --export json --output passwords.json
+```
+
+- **To CSV**
+```bash
+python main.py --multiple 5 --export csv --output passwords.csv
+```
+
