@@ -1,0 +1,28 @@
+[
+  {
+    "length": 12,
+    "uppercase": true,
+    "digits": true,
+    "special": true,
+    "file": true,
+    "output": "password1.txt",
+    "clipboard": false
+  },
+  {
+    "length": 16,
+    "uppercase": false,
+    "digits": true,
+    "special": true,
+    "file": false,
+    "clipboard": true
+  },
+  {
+    "length": 10,
+    "uppercase": true,
+    "digits": false,
+    "special": false,
+    "file": true,
+    "output": "password2.txt",
+    "clipboard": false
+  }
+]
