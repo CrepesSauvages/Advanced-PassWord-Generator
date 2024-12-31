@@ -32,7 +32,6 @@ Ce projet est un script complet de **Générateur de mots de passe** conçu pour
 
 - Python 3.7+
 - Libraries: `argparse`, `random`, `string`, `logging`, `pyperclip`, `json`, `csv`
-- Utility function: `utils/generate_password.py`
 
 Install required packages using pip:
 
